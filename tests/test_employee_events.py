@@ -22,7 +22,7 @@ def db_path():
 # the creates the "fixture" for
 # the database's filepath
 def test_db_exists(db_path):
-    a=xyz
+    
     # using the pathlib `.is_file` method
     # assert that the sqlite database file exists
     # at the location passed to the test_db_exists function
